@@ -1,0 +1,17 @@
+:root {
+  --swiper-navigation-size: 50px;
+  --swiper-navigation-color: #ffba08;
+  --swiper-theme-color:#ffba08;
+  --swiper-pagination-bullet-width: 16px;
+  --swiper-pagination-bullet-height: 16px;
+  --swiper-pagination-bullet-inactive-color: #999999;  
+  --swiper-pagination-bullet-inactive-opacity: 1;
+}
+
+.swiper-button-next, .swiper-rtl .swiper-button-prev {
+  right: 40px;
+}
+
+.swiper-button-prev, .swiper-rtl .swiper-button-next {
+  left: 40px;
+}
